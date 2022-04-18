@@ -13,7 +13,7 @@ const mapResult = map(array, function (item, index, array) {
 
 console.log(mapResult) // => [4, 8, 12]
 
-const filterResult = filter(array, (item, index, array) => {
+const filterResult = filter(array,(item, index, array) => {
   return item > 1;
 });
 
